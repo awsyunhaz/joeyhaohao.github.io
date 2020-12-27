@@ -1,30 +1,166 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>joeyhaohao</title>
+    <description>We had Joey, we had fun, we had seasons in the sun</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 26 Dec 2020 20:44:39 -0600</pubDate>
+    <lastBuildDate>Sat, 26 Dec 2020 20:44:39 -0600</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Amazon Recommender</title>
+        <description>&lt;p&gt;It learns from customers recent events (browsing, searching, rating) and updates recommendation in real time.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 13 Oct 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020/10/13/Amazon-recommender/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/10/13/Amazon-recommender/</guid>
+        
+        <category>Recommender System</category>
+        
+        <category>Machine Learning</category>
+        
+        <category>Big Data</category>
+        
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Twitter Streaming</title>
+        <description>&lt;p&gt;Fetch latest Twitter posts and compute trending hashtags in real time. Naïve Bayes models for sentiment analysis and malicious tweets detection.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Mar 2020 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2020/03/21/Twitter-streaming/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/03/21/Twitter-streaming/</guid>
+        
+        <category>Big Data</category>
+        
+        <category>NLP</category>
+        
+        <category>Sentiment Analysis</category>
+        
+        <category>Machine Learning</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Ricebook</title>
+        <description>&lt;p&gt;Angular, Ajax, Nodejs, Express, MongoDB, Redis, OAuth2, WebSocket&lt;/p&gt;
+</description>
+        <pubDate>Fri, 27 Dec 2019 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2019/12/27/Ricebook/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/12/27/Ricebook/</guid>
+        
+        <category>Web</category>
+        
+        <category>Full Stack</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>MyDB</title>
+        <description>&lt;p&gt;LRU cache, B+ tree, TPMMS, SQL&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Dec 2019 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2019/12/25/MyDB/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/12/25/MyDB/</guid>
+        
+        <category>Database</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Unexplored Land</title>
+        <description>&lt;p&gt;Bootstrap, EJS, Nodejs, Express, MongoDB, Google API, AWS EC2, Nginx&lt;/p&gt;
+</description>
+        <pubDate>Sat, 07 Dec 2019 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2019/12/07/Unexlored-Land/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/12/07/Unexlored-Land/</guid>
+        
+        <category>Web</category>
+        
+        <category>Full Stack</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>TensorFlow-probability</title>
+        <description>&lt;p&gt;Added Empirical distribution and related statistics, e.g. probability density.
+Wrote a Generative Adversarial Network tutorial for generating MNIST handwriting digits with TFP.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 May 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2019/05/01/TensorFlow-probability/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/05/01/TensorFlow-probability/</guid>
+        
+        <category>Machine Learning</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Busy Dufu</title>
+        <description>&lt;p&gt;爱子化成否，云要何日多。
+詹今有君子，晓草溢归川。
+枫卷蒹葭外，辉辉俨分看。
+琪园堆广汉，四海自中仙。&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Apr 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2019/04/15/Busy-Dufu/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/15/Busy-Dufu/</guid>
+        
+        <category>NLP</category>
+        
+        <category>Text Generation</category>
+        
+        <category>Machine Learning</category>
+        
+        <category>Deep Learning</category>
+        
+        <category>AI</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Rapidminer-Hanminer</title>
+        <description>&lt;p&gt;The Hanminer Extension of RapidMiner aims at freeing data analysts/scientists from repeated programming in Chinese Mandarin (Han language) 
+processing &amp;amp; mining tasks such as keyword extraction, sentiment analysis and public opinion monitor. Integrated in Rapidminer environment, 
+Hanminer provides a set of easy-to-use text mining tools and allows users to work in the intuitive graphical user interface of Rapidminer.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Apr 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2019/04/01/Rapidminer-Hanminer/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/04/01/Rapidminer-Hanminer/</guid>
+        
+        <category>NLP</category>
+        
+        <category>Text Processing</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Expert recommender for online Q&amp;A communities</title>
+        <description>&lt;p&gt;Yunhao Zheng, Xi Zhang, and Yuting Xiao. 2018. Making the Most Cost-effective Decision in Online Paid Q&amp;amp;A Community: An Expert Recommender System with Motivation Modeling and Knowledge Pricing. In Companion Proceedings of the The Web Conference 2018 (WWW ‘18). International World Wide Web Conferences Steering Committee, Republic and Canton of Geneva, CHE, 365–372. DOI:https://doi.org/10.1145/3184558.3186349&lt;/p&gt;
+</description>
+        <pubDate>Tue, 30 Jan 2018 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/2018/01/30/Expert-recommender-for-online-Q&A-communities/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/01/30/Expert-recommender-for-online-Q&A-communities/</guid>
+        
+        <category>Recommender System</category>
+        
+        <category>Machine Learning</category>
+        
+        <category>Cognitive Science</category>
+        
+        <category>Knowledge Representation</category>
+        
+        
+      </item>
+    
   </channel>
 </rss>
