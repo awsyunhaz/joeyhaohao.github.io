@@ -52,7 +52,7 @@ input: GFM                            # use Github Flavored Markdown !important
 # Disqus（https://disqus.com/）
 #disqus:
 #  enable: true
-#  username: qiubaiying
+#  username:
 
 # Gitalk
 gitalk:
