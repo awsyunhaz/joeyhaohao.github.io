@@ -10,7 +10,7 @@
     <meta name="keywords"  content="Joey, portfolio, blog">
     <meta name="theme-color" content="#000000">
     
-    <title>Projects - joeyhaohao's space</title>
+    <title>美国梦 vs. 中国梦（三） - joeyhaohao's space</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -22,7 +22,7 @@
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/projects/">
+    <link rel="canonical" href="http://localhost:4000/2020/12/29/%E7%BE%8E%E5%9B%BD%E6%A2%A6vs%E4%B8%AD%E5%9B%BD%E6%A2%A6%E4%B8%89/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -178,293 +178,110 @@
 </script>
 
 
-    <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/post-bg-rwd.jpg')">
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/blog/trump-xi.jpeg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/blog/trump-xi.jpeg')
+    }
+
+    
+</style>
+<header class="intro-header" >
+    <div class="header-mask"></div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>Projects</h1>
-                    <!--<hr class="small">-->
-                    <span class="subheading"></span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#过客手笺" title="过客手笺">过客手笺</a>
+                        
+                    </div>
+                    <h1>美国梦 vs. 中国梦（三）</h1>
+                    
+                    
+                    <h2 class="subheading"></h2>
+                    
+                    <span class="meta">Posted by joeyhaohao on December 29, 2020</span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-	<div class="row">
-        
-        <!-- USE SIDEBAR -->
-        <!-- PostList Container -->
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+        <!-- Post Container -->
         <div class="
-                col-lg-8 col-lg-offset-1
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                postlist-container
-            ">
+            col-lg-8 col-lg-offset-2
+            col-md-10 col-md-offset-1
+            post-container">
+            <blockquote>
+                多研究些问题，少谈些“主义” <br> ——胡适
+            </blockquote>
+            <h2 id="思维差异">思维差异</h2>
+
+
+
+            <hr style="visibility: hidden;">
+
+            <ul class="pager">
+                
+                <li class="previous">
+                    <a href="/2020/12/29/%E7%BE%8E%E5%9B%BD%E6%A2%A6vs%E4%B8%AD%E5%9B%BD%E6%A2%A6%E4%BA%8C/" data-toggle="tooltip" data-placement="top" title="美国梦 vs. 中国梦（二）">
+                    Previous<br>
+                    <span>美国梦 vs. 中国梦（二）</span>
+                    </a>
+                </li>
+                
+                
+            </ul>
+
+
+            <!--Gitalk评论start  -->
             
-<div class="post-preview">
-    <a href="https://github.com/joeyhaohao/amazon_recommender">
-        <div class="row">
-            <div class="column" style="float:left; width:20%; margin-top: 20px">
-                
-                <img src="/img/thumbnail/amazon-thumbnail.png" style="width:80%"/>
-                
-            </div>
-            <div class="column" style="float:left; width:80%;">
-                <h2 class="post-title">
-                    Amazon Recommender
-                </h2>
-                
-                <h3 class="post-subtitle ">
-                    A recommender system for customized online-shopping goods recommendations.
-                </h3>
-                
-                <div class="post-content-preview">
-                    It learns from recent events (browsing, searching, rating) of customers and updates recommendation in real time.
+            <!-- 引入Gitalk评论插件  -->
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+            <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+            <div id="gitalk-container"></div>
+            <!-- 引入一个生产md5的js，用于对id值进行处理，防止其过长 -->
+            <!-- Thank DF:https://github.com/NSDingFan/NSDingFan.github.io/issues/3#issuecomment-407496538 -->
+            <script src="/js/md5.min.js"></script>
+            <script type="text/javascript">
+                var gitalk = new Gitalk({
+                clientID: 'e86614774e317c7fed9a',
+                clientSecret: '154419f17c90dfbacde93c20aceea25a51c4e0d3',
+                repo: 'joeyhaohao.github.io',
+                owner: 'joeyhaohao',
+                admin: ['joeyhaohao'],
+                distractionFreeMode: true,
+                id: md5(location.pathname),
+                });
+                gitalk.render('gitalk-container');
+            </script>
+            
+            <!-- Gitalk end -->
 
-                </div>
-            </div>
+            
         </div>
-    </a>
-</div>
-<hr>
 
-<div class="post-preview">
-    <a href="https://github.com/joeyhaohao/twitter_streaming">
-        <div class="row">
-            <div class="column" style="float:left; width:20%; margin-top: 20px">
-                
-                <img src="/img/thumbnail/twitter-thumbnail.png" style="width:80%"/>
-                
-            </div>
-            <div class="column" style="float:left; width:80%;">
-                <h2 class="post-title">
-                    Twitter Streaming
-                </h2>
-                
-                <h3 class="post-subtitle ">
-                    Real-time Twitter hashtag trending and sentiment analysis
-                </h3>
-                
-                <div class="post-content-preview">
-                    Fetch latest Twitter posts and compute trending hashtags in real time. Naïve Bayes models for sentiment analysis and malicious tweets detection.
+        <!-- Side Catalog Container -->
+        
 
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="http://yz157-ricebook.surge.sh/">
-        <div class="row">
-            <div class="column" style="float:left; width:20%; margin-top: 20px">
-                
-                <img src="/img/thumbnail/ricebook-thumbnail.png" style="width:80%"/>
-                
-            </div>
-            <div class="column" style="float:left; width:80%;">
-                <h2 class="post-title">
-                    Ricebook
-                </h2>
-                
-                <h3 class="post-subtitle ">
-                    A social networking site for students to post ideas, follow users and chat online
-                </h3>
-                
-                <div class="post-content-preview">
-                    Angular, Ajax, Nodejs, Express, MongoDB, Redis, OAuth2, WebSocket
-
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="">
-        <div class="row">
-            <div class="column" style="float:left; width:20%; margin-top: 20px">
-                
-                <img src="/img/thumbnail/mydb-thumbnail.png" style="width:80%"/>
-                
-            </div>
-            <div class="column" style="float:left; width:80%;">
-                <h2 class="post-title">
-                    MyDB
-                </h2>
-                
-                <h3 class="post-subtitle ">
-                    A relational database management system
-                </h3>
-                
-                <div class="post-content-preview">
-                    LRU cache, B+ tree, TPMMS, SQL
-
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://unexplored-land.herokuapp.com/">
-        <div class="row">
-            <div class="column" style="float:left; width:20%; margin-top: 20px">
-                
-                <img src="/img/thumbnail/unexplored-land-thumbnail.png" style="width:80%"/>
-                
-            </div>
-            <div class="column" style="float:left; width:80%;">
-                <h2 class="post-title">
-                    Unexplored Land
-                </h2>
-                
-                <h3 class="post-subtitle ">
-                    A web application to write blogs, create photo galleries and post comments on traveling experiences
-                </h3>
-                
-                <div class="post-content-preview">
-                    Bootstrap, EJS, Nodejs, Express, MongoDB, Google API, AWS EC2, Nginx
-
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://www.tensorflow.org/probability">
-        <div class="row">
-            <div class="column" style="float:left; width:20%; margin-top: 20px">
-                
-                <img src="/img/thumbnail/tensorflow-thumbnail.png" style="width:80%"/>
-                
-            </div>
-            <div class="column" style="float:left; width:80%;">
-                <h2 class="post-title">
-                    TensorFlow-probability
-                </h2>
-                
-                <h3 class="post-subtitle ">
-                    A TensorFlow open source library for probabilistic reasoning and statistical analysis
-                </h3>
-                
-                <div class="post-content-preview">
-                    Contributed to Empirical distribution class and a Generative Adversarial Network tutorial.
-
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://github.com/joeyhaohao/deep-learning/tree/master/lstm/poem_generator">
-        <div class="row">
-            <div class="column" style="float:left; width:20%; margin-top: 20px">
-                
-                <img src="/img/thumbnail/busy-dufu-thumbnail.jpg" style="width:80%"/>
-                
-            </div>
-            <div class="column" style="float:left; width:80%;">
-                <h2 class="post-title">
-                    Busy Dufu
-                </h2>
-                
-                <h3 class="post-subtitle ">
-                    An AI to generate Chinese romantic acrostic poems
-                </h3>
-                
-                <div class="post-content-preview">
-                    爱子化成否，云要何日多。
-詹今有君子，晓草溢归川。
-枫卷蒹葭外，辉辉俨分看。
-琪园堆广汉，四海自中仙。
-
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://github.com/joeyhaohao/rapidminer-Hanminer">
-        <div class="row">
-            <div class="column" style="float:left; width:20%; margin-top: 20px">
-                
-                <img src="/img/thumbnail/hanminer-thumbnail.jpg" style="width:80%"/>
-                
-            </div>
-            <div class="column" style="float:left; width:80%;">
-                <h2 class="post-title">
-                    Rapidminer-Hanminer
-                </h2>
-                
-                <h3 class="post-subtitle ">
-                    A Rapidminer extension for Chinese text processing
-                </h3>
-                
-                <div class="post-content-preview">
-                    The Hanminer Extension of RapidMiner aims at freeing data analysts/scientists from repeated programming in Chinese Mandarin (Han language) 
-processing &amp; mining tasks such as keyword extraction, sentiment analysis and public opinion monitor. In...
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://dl.acm.org/doi/10.1145/3184558.3186349">
-        <div class="row">
-            <div class="column" style="float:left; width:20%; margin-top: 20px">
-                
-                <img src="/img/thumbnail/fenda-thumbnail.jpeg" style="width:80%"/>
-                
-            </div>
-            <div class="column" style="float:left; width:80%;">
-                <h2 class="post-title">
-                    Expert recommender for online Q&A communities
-                </h2>
-                
-                <h3 class="post-subtitle ">
-                    A recommender system based on cognitive models for online knowledge communities.
-                </h3>
-                
-                <div class="post-content-preview">
-                    Yunhao Zheng, Xi Zhang, and Yuting Xiao. 2018. Making the Most Cost-effective Decision in Online Paid Q&amp;A Community: An Expert Recommender System with Motivation Modeling and Knowledge Pricing. In Companion Proceedings of the The Web Conferenc...
-                </div>
-            </div>
-        </div>
-    </a>
-</div>
-<hr>
-
-
-<!-- Pager -->
-
-
-        </div>
         <!-- Sidebar Container -->
         <div class="
-            col-lg-3 col-lg-offset-0
-            col-md-3 col-md-offset-0
-            col-sm-12
-            col-xs-12
-            sidebar-container
-        ">
+            col-lg-8 col-lg-offset-2
+            col-md-10 col-md-offset-1
+            sidebar-container">
+
             <!-- Featured Tags -->
             
             <section>
@@ -534,71 +351,6 @@ processing &amp; mining tasks such as keyword extraction, sentiment analysis and
             </section>
             
 
-            <!-- Short About -->
-            <section class="visible-md visible-lg">
-                <hr><h5><a href="/contact/">CONTACT ME</a></h5>
-                <div class="short-about">
-                    
-                        <a href="/contact">
-                            <img src="/img/sidebar-avatar.jpeg"/>
-                        </a>
-                    
-                    
-                        <p>We had Joey, we had fun, we had seasons in the sun</p>
-                    
-                    <!-- SNS Link -->
-                    <ul class="list-inline">
-                        
-                        <!-- add jianshu add target = "_blank" to <a> by BY -->
-                        
-                        
-                        
-                        
-                        <li>
-                            <a target="_blank" href="https://github.com/joeyhaohao">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        
-                        
-                        <li>
-                            <a target="_blank" href="https://www.linkedin.com/in/yunhaozheng">
-                        <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                        </span>
-                            </a>
-                        </li>
-                        
-                        
-                        <li>
-                            <a target="_blank" href="https://www.facebook.com/joeyhaohao">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        
-                        
-                        <li>
-                            <a target="_blank" href="http://weibo.com/1001909552">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        
-                    </ul>
-                    
-                        <p>✉️ joeyhaohao@gmail.com</p>
-                    
-                </div>
-            </section>
             <!-- Friends Blog -->
             
             <hr>
@@ -611,10 +363,51 @@ processing &amp; mining tasks such as keyword extraction, sentiment analysis and
                 
             </ul>
             
+            </div>
         </div>
-        
-	</div>
-</div>
+    </div>
+</article>
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        // BY Fix:去除标题前的‘#’ issues:<https://github.com/qiubaiying/qiubaiying.github.io/issues/137>
+        // anchors.options = {
+        //   visible: 'always',
+        //   placement: 'right',
+        //   icon: '#'
+        // };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
 
 
     <!-- Footer -->
