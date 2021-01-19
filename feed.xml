@@ -5,8 +5,8 @@
     <description>We had Joey, we had fun, we had seasons in the sun</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 12 Jan 2021 19:27:02 -0800</pubDate>
-    <lastBuildDate>Tue, 12 Jan 2021 19:27:02 -0800</lastBuildDate>
+    <pubDate>Mon, 18 Jan 2021 22:45:25 -0800</pubDate>
+    <lastBuildDate>Mon, 18 Jan 2021 22:45:25 -0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -89,7 +89,7 @@ Processes in Self-Assessment Biases [Young-Hoon Kim, et al., 2016]&lt;/a&gt;&lt;
         <description>&lt;p&gt;在上一篇中，我们说中国梦的核心是集体主义，相对应的，以在美国为首的西方社会则很大程度上建立在个人主义的理念之上。我在和一些美国人、ABC朋友探讨这个问题时，
 他们都表示集体过度侵犯个人空间是不能被接受的，保持人格的独立性是作为人的基本诉求。在展开叙述之前，我想强调的是，现存的所有文明都是几千年历史的沉淀、
 不同人类选择的结果，没有孰优孰劣之分。因此，我并不认同纪录片《河殇》所表达的黄色/大陆文明象征落后、保守；蓝色/海洋文明象征外向、进取这一观点。
-世界应当是多元的，每种文明历经几千年的历史演进而不衰，则必有其独特的价值和适用性（在下文中会进行比较）。倘若我们不能抱着包容、虚心的态度探讨这个话题，
+世界应当是多元的，每种文明历经几千年的历史演进而不衰，则必有其独特的价值和适用性（在下篇中会进行比较）。倘若我们不能抱着包容、虚心的态度探讨这个话题，
 则非常容易陷入踩一捧一、非黑即白的简单思维陷阱。&lt;/p&gt;
 
 &lt;h2 id=&quot;反叛者&quot;&gt;反叛者&lt;/h2&gt;
@@ -132,7 +132,7 @@ shall not be infringed. (Second Amendment to the United States Constitution)&lt;
 
 &lt;h2 id=&quot;个人本位&quot;&gt;个人本位&lt;/h2&gt;
 &lt;p&gt;在”天赋人权”的思想基础上，西方人逐渐形成了个人本位的价值观，其表现为个体独立、个性自由、个人利益高于一切、个人尊严和权利神圣不可侵犯。
-经济学、博弈论等研究的基本假设就是人是理性、自利的[4]。在这个弱肉强食的丛林社会，每个人都是靠自己的能力生存，凭自己的喜好生活，把自我放在首要位置，
+经济学、博弈论等研究的基本假设就是人是理性、自利的[4]。在弱肉强食的丛林社会，每个人都是靠自己的能力生存，凭自己的喜好生活，把自我放在首要位置，
 对他人保持着礼貌、安全的距离，不在乎其他个体的境遇，也不去操心别人的“闲事”（Don’t judge）。&lt;/p&gt;
 
 &lt;p&gt;在这样的价值体系下，典型的美国梦是怎样的？在我脑海中，同样有这样几个案例：&lt;/p&gt;
@@ -146,21 +146,39 @@ shall not be infringed. (Second Amendment to the United States Constitution)&lt;
 但毫无预兆地，他在一系列比赛中打出现象级表现，带领球队走出困境，并成为媒体宠儿。（林书豪）&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;可以看到，在这些故事中，个人的成功是永恒不变的主题。与中国梦的自我牺牲成就环境截然相反，它强调在大环境的不公（种族歧视、出身贫困、家庭不幸等等）下，
-坚持自我以战胜环境、实现个人价值。&lt;/p&gt;
+&lt;p&gt;可以看到，在这些故事中，个人的成功是永恒不变的主题。与中国梦强调的自我牺牲成就集体截然相反，它讲述的是在大环境的不公（种族歧视、出身贫困、家庭不幸等等）下，
+个人坚持自我以战胜环境、实现个人价值的故事。&lt;/p&gt;
 
 &lt;h2 id=&quot;多数人的暴政&quot;&gt;多数人的暴政&lt;/h2&gt;
-&lt;p&gt;在上一篇中我们提到，当个人意志和集体意志发生冲突时，集体主义的理念是让少数精英来把持大局，为集体决定；而个人主义的观点呢？既然不能忽视每一个个体，
-强调每个人的参与，于是乎有了一人一票的制度，其结果是将多数人的决定强加在少数人身上。两种选择很难简单地评判孰优孰劣，其适用性会放在下一篇中讨论。
-在这一节中主要想谈一个个人主义哲学的核心概念，叫”个人主权”（self-ownership），即个人对其自己的行动和身体拥有至高无上的主权。尤其是在面对多数人的暴政时，
-个人是否仍能保留对自己的思想和行为的主权？在社会心理学上很有名的理论，叫做”去个体化”（deindividuation)，也是我个人研究比较多的一个领域。
-Gustave LeBon在著名的《乌合之众》一书中将它描述为个人在群体中失去自我意识，行为不再受到习惯的社交限制，容易产生冲动的、甚至严重暴力的行为[5]。
-著名的斯坦福大学监狱实验(The Stanford Prison Experiment)从实验角度印证了这一现象[6]。在一些对群体暴力（如暴乱、大屠杀）的研究中，
-去个体化的理论也被应用在心理层面解释个体的暴力行为[7]。这些研究都在阐述一个观点：个体容易受集体影响而失去个人意识（个人主权），可能会酿成很可怕的结果。&lt;/p&gt;
+&lt;p&gt;在上一篇中我们提到，当个人意志和集体意志发生冲突时，集体主义的理念是让少数精英来把持大局，为集体决定；而个人主义的观点呢？既然强调每个人的参与，
+每一个个体都不能忽视，于是有了一人一票表决、少数服从多数的制度。这样的形式让每个人都在公式里贡献了自己的权重，的确给予了每个人足够的尊重。
+但从集体角度出发，结果实质上是将多数人的意志强加在少数人身上，其产生的决定对于集体而言一定是最优的吗？未必如此。遗憾的是，集体中经常傻瓜占多数，
+在教育程度低的地区尤甚。我们都知道，集体利益和个人利益常常是冲突的；理论上来说，只要50.1%的人只顾个人利益，而不具备精英的集体大局观和洞察力，
+一人一票很容易让集体做出短视、甚至危险的决定，比如选出阿道夫·希特勒这样的种族主义者。从这个意义上来说，一人一票对于像索马里、海地这样的，
+低于半数的人上过小学的国家（索马里甚至低于10%）[5]，似乎并不是个明智的选择。&lt;/p&gt;
 
-&lt;p&gt;于是，在西方社会里，不论是现实中的案例（柏林墙守墙卫兵的”一厘米主权”[8]），还是电影（《朗读者》、《浪潮》等），都在讲述忠于集体意志，却违背人性良知的故事。
-从结果来看，开枪打死越墙人的卫兵Ingo Heinrich被判三年半徒刑，而电影中忠于职守却让三百个犹太人活活烧死的Hanna Schmitz被判终身监禁。
-我们可以明确地看到西方人的价值取向：在个人意志和集体意志的碰撞中，个人应该是站在制高点的一方；个人应保留自己的主权为底线，而免于受集体暴政的摆布。&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kmfm7vmJ0Bs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;When you have sixty to seventy percent of the population educated, knowing what would work and what would not, 
+then one man one vote makes sense. (Lee Kuan Yew)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;基于多数人暴政，进一步来谈一个概念：个人主权（self-ownership），即个人对其自己的行动和身体拥有至高无上的主权，而免于任何外部权力的干预。
+作为个人主义哲学的核心思想，它多少显得有些理想主义。本篇的开头是卢梭的那句至理名言：人生而自由，却无往不在枷锁之中。为什么会有枷锁？因为人虽是个体，
+却从出生起就带有集体属性（家庭、学校、国家等）。在被赋予了身份后，人很多时候并不能对自己的行为有绝对的主权，比如：父母、军人、囚犯等。然而，
+在面对多数人的暴政时，个人仍能保留对自己的思想的主权，在我看来却是人性的光辉所在。&lt;/p&gt;
+
+&lt;p&gt;心理学上有一个很有名的理论，叫”去个体化”（deindividuation)，关于它的研究可以追溯到1895年，Gustave LeBon在著作《乌合之众》中他研究了个体在群体中的心理变化，
+发现个人在群体中容易因感觉被群体淹没而失去自我意识，个体认同被群体的目标认同所取代，个体难以意识到自身的价值与行为。他认为个人在群体中是趋同的、
+情绪化的、弱智的（”unanimous, emotional, and intellectually weak”）[6]。美国社会心理学家Leon Festinger在这个基础上正式提出deindividuation的概念，
+并认为个人在集体中因失去个人意识而容易导致失去道德约束和行为限制，容易产生冲动的、情绪化的、甚至暴力的行为[7]。现实生活中的网络暴力、旁观者效应等，
+一定程度上都可以用这个理论来解释。著名的斯坦福大学监狱实验(The Stanford Prison Experiment)则从实验角度印证了这一现象[8]。
+在一些对严重群体暴力（如暴乱、大屠杀、种族灭绝）的研究中，去个体化的理论也被应用在解释个体层面的暴力行为[9]。这些研究都在阐述一个观点：
+个体失去个人意识（个人主权），可能会酿成很可怕的结果；而集体的力量恰恰是背后的罪魁祸首。&lt;/p&gt;
+
+&lt;p&gt;于是，在西方社会里，不论是现实中的案例（柏林墙守墙卫兵的”一厘米主权”[10]），还是电影（《朗读者》、《浪潮》等），都在讲述忠于集体意志，却违背人性良知的故事。
+从结果来看，开枪打死越墙人的卫兵Ingo Heinrich被判三年半徒刑，电影中忠于职守却让三百个犹太人活活烧死的Hanna Schmitz被判终身监禁。
+我们可以明确地看到西方人的价值取向：在个人意志和集体意志的碰撞中，个人应当是站在制高点的一方，以良知为底线决定自己的思想和行为，而免于受集体暴政的摆布。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/blog/August-Landmesser.jpg&quot; alt=&quot;August-Landmesser&quot; /&gt;&lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;拒绝行纳粹礼的August Landmesser&lt;/p&gt;
@@ -174,13 +192,17 @@ Gustave LeBon在著名的《乌合之众》一书中将它描述为个人在群�
 
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Homo_economicus&quot;&gt;[4] Homo economicus&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;[5] The Crowd: A Study of the Popular &lt;em&gt;by Gustave Le Bon&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.theguardian.com/education/2010/sep/20/70m-get-no-education&quot;&gt;[5] 70 million children get no education, says report&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.prisonexp.org/&quot;&gt;[6] The Stanford Prison Experiment&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[6] The Crowd: A Study of the Popular by Gustave Le Bon&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://psycnet.apa.org/record/1996-02655-003&quot;&gt;[7] Cultural-societal roots of violence: The examples of genocidal violence and of contemporary youth violence in the United States&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://web.archive.org/web/20090307032756/http://people.exeter.ac.uk/tpostmes/deindividuation.html&quot;&gt;[7] Deindividuation&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.chronik-der-mauer.de/todesopfer/171315/gueffroy-chris?n&quot;&gt;[8] Chris Gueffroy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.prisonexp.org/&quot;&gt;[8] The Stanford Prison Experiment&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://psycnet.apa.org/record/1996-02655-003&quot;&gt;[9] Cultural-societal roots of violence: The examples of genocidal violence and of contemporary youth violence in the United States&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.chronik-der-mauer.de/todesopfer/171315/gueffroy-chris?n&quot;&gt;[10] Chris Gueffroy&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 29 Dec 2020 00:00:00 -0800</pubDate>
