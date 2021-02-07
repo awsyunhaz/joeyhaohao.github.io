@@ -5,9 +5,28 @@
     <description>We had Joey, we had fun, we had seasons in the sun</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 07 Feb 2021 10:29:41 -0800</pubDate>
-    <lastBuildDate>Sun, 07 Feb 2021 10:29:41 -0800</lastBuildDate>
+    <pubDate>Sun, 07 Feb 2021 10:32:41 -0800</pubDate>
+    <lastBuildDate>Sun, 07 Feb 2021 10:32:41 -0800</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Rapidminer-HanMiner</title>
+        <description>&lt;p&gt;No programming knowledge required for Chinese text mining! The HanMiner Extension of RapidMiner provides a fast and 
+easy-to-use toolset to perform Chinese Mandarin (or Han language) text processing/mining tasks such as word segmentation, 
+document vectorization, keywords extraction and sentiment analysis, in the graphical interface of RapidMiner. It aims at 
+saving researchers/data analysts from codes in Chinese text mining. Simply drag and connect operators in your process at 
+Rapidminer studio and run your tasks!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 07 Feb 2021 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2021/02/07/Rapidminer-HanMiner/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/02/07/Rapidminer-HanMiner/</guid>
+        
+        <category>NLP</category>
+        
+        <category>Text Processing</category>
+        
+        
+      </item>
     
       <item>
         <title>美国梦 vs. 中国梦（三）</title>
@@ -519,30 +538,6 @@ then one man one vote makes sense. (Lee Kuan Yew)&lt;/p&gt;
         <guid isPermaLink="true">http://localhost:4000/2019/05/01/TensorFlow-probability/</guid>
         
         <category>Machine Learning</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Busy Dufu</title>
-        <description>&lt;p&gt;爱子化成否，云要何日多。
-詹今有君子，晓草溢归川。
-枫卷蒹葭外，辉辉俨分看。
-琪园堆广汉，四海自中仙。&lt;/p&gt;
-</description>
-        <pubDate>Mon, 15 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019/04/15/Busy-Dufu/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019/04/15/Busy-Dufu/</guid>
-        
-        <category>NLP</category>
-        
-        <category>Text Generation</category>
-        
-        <category>Machine Learning</category>
-        
-        <category>Deep Learning</category>
-        
-        <category>AI</category>
         
         
       </item>
