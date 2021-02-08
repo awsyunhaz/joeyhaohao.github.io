@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="We had Joey, we had fun, we had seasons in the sun">
+    <meta name="keywords"  content="Joey, portfolio, blog">
+    <meta name="theme-color" content="#000000">
+    <meta name="image" property="og:image" content="https://joeyhaohao.github.io/img/home-bg-corgi3.jpg" />
+
+    <title>美国梦 vs. 中国梦（三） - joeyhaohao's space</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/icon-corgi.jpg">
+
+    <!-- Safari Webpage Icon    by-BY -->
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/2021/01/01/%E7%BE%8E%E5%9B%BD%E6%A2%A6vs%E4%B8%AD%E5%9B%BD%E6%A2%A6%E4%B8%89/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">joeyhaohao</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/projects/">Projects</a></li>
+                    <li><a href="/blogs/">Blogs</a></li>
+                    <li><a href="/tags/">Tags</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+<!--                    -->
+<!--                        -->
+<!--                    -->
+<!--                        -->
+<!--                            <li>-->
+<!--                                <a href="/contact/">Contact</a>-->
+<!--                            </li>-->
+<!--                        -->
+<!--                    -->
+<!--                        -->
+<!--                    -->
+<!--                        -->
+<!--                            <li>-->
+<!--                                <a href="/blogs/">Blogs</a>-->
+<!--                            </li>-->
+<!--                        -->
+<!--                    -->
+<!--                        -->
+<!--                            <li>-->
+<!--                                <a href="/projects/">Projects</a>-->
+<!--                            </li>-->
+<!--                        -->
+<!--                    -->
+<!--                        -->
+<!--                    -->
+<!--                        -->
+<!--                    -->
+<!--                        -->
+<!--                            <li>-->
+<!--                                <a href="/tags/">Tags</a>-->
+<!--                            </li>-->
+<!--                        -->
+<!--                    -->
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    var __HuxNav__ = {
+        close: function(){
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        },
+        open: function(){
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+
+    // Bind Event
+    $toggle.addEventListener('click', function(e){
+        if ($navbar.className.indexOf('in') > 0) {
+            __HuxNav__.close()
+        }else{
+            __HuxNav__.open()
+        }
+    })
+
+    /**
+     * Since Fastclick is used to delegate 'touchstart' globally
+     * to hack 300ms delay in iOS by performing a fake 'click',
+     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * $toggle/$collapse will break global delegation.
+     * 
+     * Instead, we use a 'e.target' filter to prevent handler
+     * added to document close HuxNav.  
+     *
+     * Also, we use 'click' instead of 'touchstart' as compromise
+     */
+    document.addEventListener('click', function(e){
+        if(e.target == $toggle) return;
+        if(e.target.className == 'icon-bar') return;
+        __HuxNav__.close();
+    })
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/blog/trump-xi.jpeg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/blog/trump-xi.jpeg')
+    }
+
+    
+</style>
+<header class="intro-header" >
+    <div class="header-mask"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#过客手笺" title="过客手笺">过客手笺</a>
+                        
+                    </div>
+                    <h1>美国梦 vs. 中国梦（三）</h1>
+                    
+                    
+                    <h2 class="subheading">差异和适用性</h2>
+                    
+                    <span class="meta">Posted by joeyhaohao on January 1, 2021</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+        <!-- Post Container -->
+        <div class="
+            col-lg-8 col-lg-offset-2
+            col-md-10 col-md-offset-1
+            post-container">
+            <blockquote>
+                多研究些问题，少谈些“主义” <br> ——胡适
+            </blockquote>
+            <p>在前两篇中，我们从一些视角分析了集体主义与个人主义的思想在中美两国的文化根源和一些表现。在历史上，两种理念缔造的制度、文明都有过辉煌，
+也都产生过给人间带来苦难的暴君。因此在这一篇中，不去简单地评判孰优孰劣。先从一些有趣的现实表现出发将两种理念的差异做一些具体的横向比较，
+然后再来讨论二者的差异和适用性。</p>
+
+<h2 id="思维方式">思维方式</h2>
+<blockquote>
+  <p>皮之不存，毛将焉附。 ——《左传·新序·杂事》</p>
+</blockquote>
+
+<p>长期受集体主义的影响，强调个体间尊卑、长幼有序，导致东方人养成了由大及小、由上至下的思维习惯。而西方却恰恰相反，习惯从个体出发，由小到大的思考方式。
+在现实中，具体的表象有：</p>
+<ul>
+  <li>姓名：中国：先姓（宗族标签）后名；美国：先名（个体标签）后姓</li>
+  <li>时间：中国：年、月、日；美国：月、日、年（英法等西方国家则大多使用日、月、年）</li>
+  <li>地址：中国：国家、省、市、街道；美国：街道、市、州、国家</li>
+  <li>称呼：中文：你我他；英文：’I’是为数不多的几个需要大写的单词之一</li>
+</ul>
+
+<p>这种由上至下的思维方式导致东方人更注重事物的整体性，而西方人则更注重个体之间的关联。一个著名的”三联测试”可以说明这个问题：从”火车”、”公共汽车”、
+“铁轨”中选出两个词语，你会怎么选择？实验表明，东方人则更倾向选择”火车”和”铁轨”，因为二者能组成一个整体；而西方人则倾向选择”公共汽车”和”火车”，
+因为两者都是交通工具，在个体品类上具有一定的相关性[1]。</p>
+
+<h2 id="教育理念">教育理念</h2>
+<p>在一次机缘巧合下，一位儿子在美国上小学的中国母亲向我抱怨，美国的老师从来只提供正面的反馈，导致她很苦恼，不知道她的儿子是否真的如老师说的那么优秀，
+在这里该如何提高。我想这也是东西方思维模式差异在教育理念上的体现。在中国文化里，一直强调受教育的目的是回馈社会、国家（”学而优则仕”，”为中华之崛起而读书”），
+因为教育本身是在培养社会精英来服务集体。从选拔机制上可以看到，中国的标准化考试，从古时科举（三年一乡试），发展到现代高考（一年一试），
+作为一种精英选拔机制，实质上一直是同辈之间的竞赛。在这个意义上，个人是放在集体的参考系中进行衡量的：你不必做得很好，只需要好过同辈竞争者即可。
+这样的机制实则在传播一个信息：世界是个零和游戏，你的成功，势必意味着我的失败；想要成为人中龙凤，则要踏过千军万马的同辈尸体。
+而在集体的参考系中，永远会有比你更出色、更有能力的人，作为个体努力的榜样。我想，中国人的谦卑、勤勉的文化很大程度上来源于此。
+同样的，中国式家长常用来鞭策子女的话术：”别人都可以，为什么你不行”（”别人家的小孩”），也是基于这个评价模式。另一方面，人们总寄希望后代成为佼佼者，
+在同辈中脱颖而出，通过仕途进入集体的决策集团，这也一定程度上解释了重教育文化的社会合理性。</p>
+
+<p>不同的，崇尚个人主义的西方人更多从个人发展的角度来谈教育的目的：淡化对社会的依赖，强调教育对于开发个人潜能、实现个人目标的重要性；从个人财富的角度，
+更毫不避讳地将其视为一种高回报的投资。对比中国的选拔体系，美国的标准化考试，如SAT, ACT等（均为一年七试），设立之出的目的便是对个人的智力(IQ)、能力测试；
+除此以外，在选拔过程中还会结合课外活动、性格得分等指标来对个人进行综合评价[2]。在这个衡量体系下，人们的参考系只有自己，因而在教育过程中更强调自身的纵向对比
+（自我挑战和进步），而非同辈间的横向对比（如，击败年级第一）。这也是为什么很多西方教育者认为”curve grade”（即，按正态分布给同一门课的学生打分）
+是很不合理的，因为它让评价模式从对个人的考量变成同班之间的竞赛，营造了一种有害的竞争环境，阻碍同学间进行合作；然而这在东方的象牙塔里却显得十分稀松平常，
+因为集体主义所提倡的评价体系本就是基于同辈竞争的。</p>
+
+<p>我曾听到一个经典的stereotype：当孩子拿到第二名的成绩单回家，传统的中国家长会质问孩子为什么第一名做到了，而你没有，然后给孩子报补习班进行补短；
+而美国家长则因孩子的进步而喜出望外：”You made it…I’m so proud of you…That’s my boy”，然后开心地让孩子选礼物作为奖励。
+这个梗实际上非常能印证两种评价标准下参考系的不同。</p>
+
+<blockquote>
+  <p>Education…to encourage the citizens to rely upon their own developments and realize their full potentials. 
+(Nyerere, Education for Self Reliance)</p>
+</blockquote>
+
+<p>由于相信每个个体的独特性，在教育过程中，西方教育者并不轻易否定学生天马行空的想法，更倾向通过鼓励帮助学生树立自信，发掘自身的闪光点；更重视个体的参与、
+贡献（如小组讨论），以及好奇心、批判性思维的培养等。一则很有趣的短片<em>Alternative Math</em>，从一个极端、戏谑的角度展示了西方教育模式的这种特点。</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zh3Yz3PiXZw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>在这样的文化熏陶下，人的自我（ego）在成长过程中没有受到过多来自环境的约束而日益膨胀，更多地寻求个人尊重，追求个人快乐，同时倾向于将个人成功至于集体成就之上。
+另一方面，过分渴望自我肯定而导致的一个特质是过度自信。许多实验表明，西方人比东方人更容易高估自己的能力。比如，一份针对美国内布拉斯加州教职人员的研究显示，
+94%的受访者声称他们的能力高于平均水平[3]；这种自我膨胀的表现几乎不存在于东亚人中，相反，不少研究显示，东亚人反而更倾向于低估自己的能力，而非抬高自我价值[4]。</p>
+
+<blockquote>
+  <p>Don’t ever let somebody tell you, you can’t do something. Not even me. All right?… You got a dream. You gotta protect it. 
+People can’t do something themselves, they wanna tell you you can’t do it. If you want something, go get it. Period.
+(The Pursuit of Happyness)</p>
+</blockquote>
+
+<h2 id="生产力和经济">生产力和经济</h2>
+<p>两种理念在经济制度上的反映，分别是公有制和私有制。在农业社会时代，国家只要管理好农产品的分配就行了，这时候公有制的稳定、规避风险的优势还能有所体现。
+而在生产力大幅提高的现代社会，产业种类和结构的复杂性已经超出了政府可以统一调控的范畴，这时候政府就只能集中精力抓住命脉产业，如石油、电力、交通、金融、
+粮食、重工业等，而将其他产业放手给商人去做，政府只要做好监管、税收即可。发展到2018年，中国的民营经济已经具有“五六七八九”的特征，即贡献了50%以上的税收，
+60%以上的国内生产总值，70%以上的技术创新成果，80%以上的城镇劳动就业，90%以上的企业数量[5]。在私有化程度更高的美国，政府扮演的角色就更小了，
+大部分行业都实现私有化，国企（联邦、州和市镇管理的企业）主要集中在无利可图或投资大、回报慢的行业，比如公园、博物馆、邮政、航天、自来水等等，
+贡献仅占总GDP的5%-10%左右[6]。</p>
+
+<p>两种经济制度下的结果，更体现在生产力、竞争力、和创新能力上。生产力方面，为什么吃大锅饭的时候大家都饿肚子，一包产到户就灵？我们在上一篇中提到，
+在经济生产过程中，西方经济学的基本假设是理性、自利人，而集体主义的模型（无私、利他）放在这里似乎就不那么适用了。更不用说在全球化竞争的大环境下，
+中国在2001年加入WTO后，除上面提到的受保护的支柱型产业之外，每个产业都面临激烈的国际竞争。在自由竞争的环境下，集体主义所强调的自上而下的管理思维方式，
+导致每个人倾向于循规蹈矩、被动地等待上级精英的指令，不愿成为”异类”，无法发挥出个体的能动性、创造力来实现西方经济所提倡的”破坏式创新”(disruptive innovation)，
+更新和变革生产模式和结构，很难在残酷的、多变的国际市场中生存：你想不到的产品、模式，被那些”异类”天马行空地发明、创造出来；你好不容易跟上脚步，
+先发的人做的比你好、比你成本低，再利用专利形成技术壁垒和垄断。举个有趣的例子，英国的豪华车品牌劳斯莱斯、捷豹都曾在二战后因汽车工业整合计划被整合进国企。
+但是面对德国、日本汽车工业的残酷竞争，在市场上连连受挫，政府又不得不将其私有化。同样的，中国的工商业在进入WTO之前跟非洲处在同一水平，
+甚至比东南亚还略有不如；一旦进入充分竞争的环境，再加上政府对部分产业的放手，才有了近二十年火箭般的成长速度。这就是个体的能量释放出的结果。</p>
+
+<p>经济全球化以后，两种理念在生产过程中的碰撞每天都在发生。反映这些内容的影视作品包括喜剧电影《超级魔鬼干部》（Gung Ho， 讲述三十年前日资进入美国），
+《美国工厂》（American Factory，讲述2008年福耀公司在位于美国铁锈带的俄亥俄州建生产线）。在这里着重推荐一下2020年奥斯卡最佳纪录片奖《美国工厂》，
+不仅因为玻璃厂的老板是我的老乡，更因为它以一个写实的角度记录了来自东方的集体主义文化进入西方的阵痛，让我从另一个角度对一些习以为常的事情有了颠覆。
+<img src="/img/blog/american_factory.jpg" alt="american_factory" /></p>
+<p align="center">美方经理参加福耀公司年会后热泪盈眶，也许是第一次感到集体主义的温暖</p>
+
+<h2 id="应对危机">应对危机</h2>
+<p>几年以前曾经读到这样一段话，大意是：人们在危机发生时，总渴望背后有个大政府，来提供物质支持和心理上的安全感；但当危机过去，又不希望见到过于强势的政府，
+造成沉重的赋税负担和对个人空间的过度干涉。虽然现在已经找不到来源，但是依然认为它所传达的信息很精辟。我们说集体主义的思想干涉个人空间、
+束缚个体的能动性和创造力，但是当面对关乎集体存亡的重大危机发生时，在我看来也只能两害相权取其轻。我想，这里的”危机”包括但不限于战争、瘟疫、环境危机、
+金融危机等所有群体危机：</p>
+<ul>
+  <li>战争：军队是现代文明下争夺群体利益的核心集体形式。当战争发生时，如果国家机器没有动员能力（比如：军队内官兵无统一指挥，民间亦各为其主），
+则在碰撞中难逃被其他集体淘汰的命运。</li>
+  <li>瘟疫：发生威胁整个集体的严重瘟疫时，仍然强调个体人权、自由，拒绝丝毫个人牺牲（如戴口罩），则无法从政府层面控制集体损失。</li>
+  <li>环境危机：</li>
+  <li>金融危机：
+极端个人主义的人可能会说，国家本就是虚无的概念，瘟疫本是自然选择，与我何干？那么，也许文明之前的丛林社会才是他们的理想归宿。</li>
+</ul>
+
+<h2 id="参考资料">参考资料</h2>
+<p><a href="https://www.bbc.com/future/article/20170118-how-east-and-west-think-in-profoundly-different-ways">[1] How East and West think in profoundly different ways</a></p>
+
+<p><a href="https://www.thecrimson.com/article/2018/9/12/harvard-student-admissions-file-analysis">[2] What One Student’s Marked-Up Harvard Application Reveals About the Admissions Process</a></p>
+
+<p><a href="https://www.gwern.net/docs/psychology/1977-cross.pdf">[3] Not can, but will college teaching be improved? [Cross, 1977]</a></p>
+
+<p><a href="https://journals.sagepub.com/doi/pdf/10.1177/0022022116661243">[4] Why Do People Overestimate or Underestimate Their Abilities? A Cross-Culturally Valid Model of Cognitive and Motivational 
+Processes in Self-Assessment Biases [Young-Hoon Kim, et al., 2016]</a></p>
+
+<p><a href="http://www.xinhuanet.com/politics/2018-11/01/c_1123649488.htm">[5] 习近平：在民营企业座谈会上的讲话</a></p>
+
+<p><a href="https://fred.stlouisfed.org/series/DDEI08USA156NWDB">[6] Credit to Government and State-Owned Enterprises to GDP for United States</a></p>
+
+
+            <hr style="visibility: hidden;">
+
+            <ul class="pager">
+                
+                <li class="previous">
+                    <a href="/2020/12/29/%E7%BE%8E%E5%9B%BD%E6%A2%A6vs%E4%B8%AD%E5%9B%BD%E6%A2%A6%E4%BA%8C/" data-toggle="tooltip" data-placement="top" title="美国梦 vs. 中国梦（二）">
+                    Previous<br>
+                    <span>美国梦 vs. 中国梦（二）</span>
+                    </a>
+                </li>
+                
+                
+                <li class="next">
+                    <a href="/2021/02/07/Rapidminer-HanMiner/" data-toggle="tooltip" data-placement="top" title="Rapidminer-HanMiner">
+                    Next<br>
+                    <span>Rapidminer-HanMiner</span>
+                    </a>
+                </li>
+                
+            </ul>
+
+
+            <!--Gitalk评论start  -->
+            
+            <!-- 引入Gitalk评论插件  -->
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+            <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+            <div id="gitalk-container"></div>
+            <!-- 引入一个生产md5的js，用于对id值进行处理，防止其过长 -->
+            <!-- Thank DF:https://github.com/NSDingFan/NSDingFan.github.io/issues/3#issuecomment-407496538 -->
+            <script src="/js/md5.min.js"></script>
+            <script type="text/javascript">
+                var gitalk = new Gitalk({
+                clientID: 'e86614774e317c7fed9a',
+                clientSecret: '154419f17c90dfbacde93c20aceea25a51c4e0d3',
+                repo: 'joeyhaohao.github.io',
+                owner: 'joeyhaohao',
+                admin: ['joeyhaohao'],
+                distractionFreeMode: true,
+                id: md5(location.pathname),
+                });
+                gitalk.render('gitalk-container');
+            </script>
+            
+            <!-- Gitalk end -->
+
+            
+        </div>
+
+        <!-- Side Catalog Container -->
+        
+
+        <!-- Sidebar Container -->
+        <div class="
+            col-lg-8 col-lg-offset-2
+            col-md-10 col-md-offset-1
+            sidebar-container">
+
+            <!-- Featured Tags -->
+            
+            <section>
+                <hr class="hidden-sm hidden-xs">
+                <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                <div class="tags">
+                    
+                        
+                    
+                        
+                            <a href="/tags/#Recommender System" title="Recommender System" rel="2">
+                                Recommender System
+                            </a>
+                        
+                    
+                        
+                            <a href="/tags/#Machine Learning" title="Machine Learning" rel="5">
+                                Machine Learning
+                            </a>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <a href="/tags/#NLP" title="NLP" rel="3">
+                                NLP
+                            </a>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <a href="/tags/#Web" title="Web" rel="2">
+                                Web
+                            </a>
+                        
+                    
+                        
+                            <a href="/tags/#Full Stack" title="Full Stack" rel="2">
+                                Full Stack
+                            </a>
+                        
+                    
+                        
+                    
+                        
+                            <a href="/tags/#Big Data" title="Big Data" rel="2">
+                                Big Data
+                            </a>
+                        
+                    
+                        
+                    
+                        
+                            <a href="/tags/#过客手笺" title="过客手笺" rel="3">
+                                过客手笺
+                            </a>
+                        
+                    
+                        
+                    
+                </div>
+            </section>
+            
+
+            <!-- Friends Blog -->
+            
+            <hr>
+            <h5>LINKS</h5>
+            <ul class="list-inline">
+                
+                    <li><a href="https://byvoid.com/zht/">BYVoid</a></li>
+                
+                    <li><a href="https://www.roujiawen.com/portfolio/">Roujia Wen</a></li>
+                
+            </ul>
+            
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        // BY Fix:去除标题前的‘#’ issues:<https://github.com/qiubaiying/qiubaiying.github.io/issues/137>
+        // anchors.options = {
+        //   visible: 'always',
+        //   placement: 'right',
+        //   icon: '#'
+        // };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    <!-- add jianshu add target = "_blank" to <a> by BY -->
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/joeyhaohao">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/yunhaozheng">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/joeyhaohao">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a target="_blank" href="http://weibo.com/1001909552">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; joeyhaohao 2021
+                    <br>
+                    Theme on <a href="https://github.com/joeyhaohao/joeyhaohao.github.io.git">GitHub</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=joeyhaohao&repo=joeyhaohao.github.io&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Service Worker -->
+
+<script type="text/javascript">
+    if(navigator.serviceWorker){
+        // For security reasons, a service worker can only control the pages that are in the same directory level or below it. That's why we put sw.js at ROOT level.
+        navigator.serviceWorker
+            .register('/sw.js')
+            .then((registration) => {console.log('Service Worker Registered. ', registration)})
+            .catch((error) => {console.log('ServiceWorker registration failed: ', error)})
+    }
+</script>
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/ 
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers   
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async('/js/jquery.tagcloud.js',function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+
+
+
+<!-- Side Catalog -->
+
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon-corgi.jpg" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
