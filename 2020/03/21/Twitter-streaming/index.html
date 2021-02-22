@@ -85,6 +85,13 @@
                     <li><a href="/blogs/">Blogs</a></li>
                     <li><a href="/tags/">Tags</a></li>
                     <li><a href="/contact/">Contact</a></li>
+                    <li>
+                        <select onchange= "onLanChange(this.options[this.options.selectedIndex].value)" style="padding: 20px; background: transparent; color: white">
+                            <option value="default" disabled selected>Language</option>
+                            <option value="en">English</option>
+                            <option value="zh">中文</option>
+                        </select>
+                    </li>
 <!--                    -->
 <!--                        -->
 <!--                    -->
@@ -125,6 +132,7 @@
     </div>
     <!-- /.container -->
 </nav>
+
 <script>
     // Drop Bootstarp low-performance Navbar
     // Use customize navbar with high-quality material design animation
@@ -176,6 +184,18 @@
         if(e.target.className == 'icon-bar') return;
         __HuxNav__.close();
     })
+
+
+    <!-- Language Change -->
+    // handle select change
+    function onLanChange(index){
+        if (index == "en") {
+            window.location.hash = "#en"
+        } else {
+            window.location.hash = "#zh"
+        }
+    }
+
 </script>
 
 
@@ -317,7 +337,7 @@
                 <div class="tags">
                     
                         
-                            <a href="/tags/#漫游记" title="漫游记" rel="2">
+                            <a href="/tags/#漫游记" title="漫游记" rel="3">
                                 漫游记
                             </a>
                         
@@ -474,34 +494,7 @@
                     </li>
                     
                     
-                    <li>
-                        <a target="_blank" href="https://www.linkedin.com/in/yunhaozheng">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
                     
-                    
-                    <li>
-                        <a target="_blank" href="https://www.facebook.com/joeyhaohao">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li>
-                        <a target="_blank" href="http://weibo.com/1001909552">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
                     
                 </ul>
                 <p class="copyright text-muted">

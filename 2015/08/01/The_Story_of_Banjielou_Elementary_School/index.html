@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="We had Joey, we had fun, we had seasons in the sun">
+    <meta name="keywords"  content="Joey, portfolio, blog">
+    <meta name="theme-color" content="#000000">
+    <meta name="image" property="og:image" content="https://joeyhaohao.github.io/img/home-bg-corgi3.jpg" />
+
+    <title>The story of Banjielou Elementary School - joeyhaohao's space</title>
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/pwa/manifest.json">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/icon-corgi.jpg">
+
+    <!-- Safari Webpage Icon    by-BY -->
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://localhost:4000/2015/08/01/The_Story_of_Banjielou_Elementary_School/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- Hux change font-awesome CDN to qiniu -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">joeyhaohao</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/projects/">Projects</a></li>
+                    <li><a href="/blogs/">Blogs</a></li>
+                    <li><a href="/tags/">Tags</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+                    <li>
+                        <select onchange= "onLanChange(this.options[this.options.selectedIndex].value)" style="padding: 20px; background: transparent; color: white">
+                            <option value="default" disabled selected>Language</option>
+                            <option value="en">English</option>
+                            <option value="zh">中文</option>
+                        </select>
+                    </li>
+<!--                    -->
+<!--                        -->
+<!--                    -->
+<!--                        -->
+<!--                            <li>-->
+<!--                                <a href="/contact/">Contact</a>-->
+<!--                            </li>-->
+<!--                        -->
+<!--                    -->
+<!--                        -->
+<!--                    -->
+<!--                        -->
+<!--                            <li>-->
+<!--                                <a href="/blogs/">Blogs</a>-->
+<!--                            </li>-->
+<!--                        -->
+<!--                    -->
+<!--                        -->
+<!--                            <li>-->
+<!--                                <a href="/projects/">Projects</a>-->
+<!--                            </li>-->
+<!--                        -->
+<!--                    -->
+<!--                        -->
+<!--                    -->
+<!--                        -->
+<!--                    -->
+<!--                        -->
+<!--                            <li>-->
+<!--                                <a href="/tags/">Tags</a>-->
+<!--                            </li>-->
+<!--                        -->
+<!--                    -->
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    var __HuxNav__ = {
+        close: function(){
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        },
+        open: function(){
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+
+    // Bind Event
+    $toggle.addEventListener('click', function(e){
+        if ($navbar.className.indexOf('in') > 0) {
+            __HuxNav__.close()
+        }else{
+            __HuxNav__.open()
+        }
+    })
+
+    /**
+     * Since Fastclick is used to delegate 'touchstart' globally
+     * to hack 300ms delay in iOS by performing a fake 'click',
+     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * $toggle/$collapse will break global delegation.
+     * 
+     * Instead, we use a 'e.target' filter to prevent handler
+     * added to document close HuxNav.  
+     *
+     * Also, we use 'click' instead of 'touchstart' as compromise
+     */
+    document.addEventListener('click', function(e){
+        if(e.target == $toggle) return;
+        if(e.target.className == 'icon-bar') return;
+        __HuxNav__.close();
+    })
+
+
+    <!-- Language Change -->
+    // handle select change
+    function onLanChange(index){
+        if (index == "en") {
+            window.location.hash = "#en"
+        } else {
+            window.location.hash = "#zh"
+        }
+    }
+
+</script>
+
+
+    <!-- Image to hack wechat -->
+<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="/img/blog/banjielou_11.jpg" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        position: relative;
+        background-image: url('/img/blog/banjielou_11.jpg')
+    }
+
+    
+</style>
+<header class="intro-header" >
+    <div class="header-mask"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/#漫游记" title="漫游记">漫游记</a>
+                        
+                    </div>
+                    <h1>The story of Banjielou Elementary School</h1>
+                    
+                    
+                    <h2 class="subheading">Volunteer Teacher Experience</h2>
+                    
+                    <span class="meta">Posted by joeyhaohao on August 1, 2015</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+        <!-- Post Container -->
+        <div class="
+            col-lg-8 col-lg-offset-2
+            col-md-10 col-md-offset-1
+            post-container">
+            <blockquote>
+                
+            </blockquote>
+            <p>(The original post was written in Chinese. Auto-translated by <a href="https://translate.google.com/">Google Translate</a>)</p>
+
+<p>During my undergraduate course, I have heard a lot about teaching support in rural areas. Some people say that short-term support education has no practical significance in changing the face of education in the border and poor areas. Instead, it invades the originally peaceful life there. After turning around and leaving, it leaves pain in the children’s life; some people say that support education has evolved into a full resume of college students A means, in this sense, appears somewhat selfish. Therefore, before I chose to support teaching in my freshman year, I was hesitant for a while. But then I thought, before I actually participated in a teaching support, all the comments were just looking at the flowers in the fog. Instead of getting into endless quarrels and inner entanglements, it would be better to devote myself to once and feel once more deeply.</p>
+
+<p>At the end of the exam on Monday, we started the preparatory work, mainly including lesson preparation, preparation of materials, souvenirs and so on. In response to the local education situation we learned in advance, we have arranged a three-week quality improvement course in a serious and responsible attitude, including ancient poetry, English, natural science, history, sports, handicraft and so on. I am mainly responsible for the teaching of natural sciences in the upper grades and general knowledge and physical education in the lower grades. The process of preparing lessons is far more difficult than imagined, especially in natural sciences. Since I don’t have any ready-made textbooks on hand, it’s the first time to participate in teaching support. I have limited understanding of the local education situation. I am worried that if the class is too difficult, the children will soon lose interest. If the difficulty is too small, it won’t be different. Knowledge experience. I had to go to the library to find some teaching materials and reading materials for elementary school students, and tried to recall the content of my science curriculum in elementary school, wrote down some key points on the lesson plans as much as possible, and prepared some simple and interesting science experiments, hoping to inspire the children Interest of exploration. For other things, I can only look forward to live performances in class. After preparing the class, I discovered that the time to prepare a class far exceeded the length of the class, and immediately developed a new understanding and respect for the profession of teachers.</p>
+
+<p>The address of Banjielou Primary School is in Zhangjun Tomb Town, Lankao County, Kaifeng City, Henan Province. Although it belongs to Lankao County (Jiao Yulu was the secretary of Lankao County Party Committee from 1962 to 1964), it is closer to the neighboring county Minquan County. Our group of nine set out from Tianjin and chose to join the three remaining members in Minquan County, including a philanthropic senior from Chongqing. This schoolgirl didn’t know us before, and she took the initiative to contact us because she saw a report about Banjielou Elementary School in the newspaper, hoping to travel with us to teach, which made us not very happy. After settling down in Civil Rights for one night, I boarded the van early the next day and drove to Banjilou Elementary School in the bumpy road. The excitement that can hardly be concealed all the way is not only for the beginning of a life that has never been experienced, but also for the noble new identity of “teacher”. Unexpectedly, the dirt road into the village is the worst road I have ever seen in my life, potholes, and muddy after the rain, this also reflects the economic and infrastructure conditions of the entire village to a certain extent. “To get rich, build roads first” is indeed a conclusion drawn from practice. Due to the poor road conditions, the van we took was unable to drive in. The principal arranged an electric tricycle to carry our large luggage in. Carrying the rest of our luggage in both hands, we walked through the cornfields, and came to the half-floor elementary school in the village with perhaps the mood of the educated youth going to the mountains and the countryside.
+<img src="/img/blog/banjielou_1.jpg" alt="banjielou_1" /></p>
+
+<p>The situation in the school is a little better than I thought, with brick buildings, old desks and chairs, basketball stands, ping pong tables, printers, and even a decent library in the teachers’ office. After asking, I learned that a large part of the teaching practice in previous years was donated by companies after being exposed by the media. From this point of view, a potential practical significance of the practice of supporting education is to open a window for schools in poverty-stricken areas to communicate with the outside world through our efforts. With the help of the media platform, more people can pay attention to the appearance of this area, so that more The love and funds flowed into the educational resources of these poor areas. With only a little assistance and donation, the learning conditions of children in these areas can be greatly improved. This is something I didn’t consider before coming, and it also adds a lot of confidence and sense of accomplishment to the next teaching practice. I think of the enthusiastic philanthropy school sister who told me on the road that the meaning of philanthropy activities is always discovered step by step in the process of practice. Those who stay out of the matter but talk and make comments are far from people who personally practice philanthropy. See a lot.</p>
+
+<p>The first step after going to the countryside is to survive. Only a few of the team members go out from the countryside, and the rest, including me, are young daughters who grew up in the city. Although the conditions here are not extremely difficult, it is indeed a challenge for most of us. At night, the girls crowded into the two dormitories of the special post teachers of the elementary school, and the boys only had the office to settle in. I cleaned the room inside and out, and soon the table was covered with dust again. When I looked up, I realized that the dust on the roof had been falling continuously. I learned from the principal that the office would still leak on rainy days last year. In order to welcome us, he specially invited someone to renovate the roof. This is a change from last year. The conditions of the kitchen are relatively simple, especially at noon, the kitchen becomes a big steamer, and when the vegetables are fried, they are so smoked by the oil that they can’t open their eyes. Fortunately, some of the team members, especially the senior sisters from Chongqing, are quite good at cooking. After a hard day, the yellow stewed chicken and Chongqing noodles are really unforgettable flavors in a lifetime. The toilet is an open-air dry toilet (a form of toilet widely used in rural areas), and when I look down, it is full of mosquitoes and maggots. There is no bathhouse in the school. We can only wait until the sun goes down and the earth is dark, boil a pot of hot water and cool it down, and take it to a corner behind the house to enjoy the pleasure of being one with the world.</p>
+
+<p><img src="/img/blog/banjielou_3.jpg" alt="banjielou_3" />
+<img src="/img/blog/banjielou_4.jpg" alt="banjielou_4" /></p>
+
+<p>Of our arrival, the children are naturally the happiest. When they first arrived, they were still standing at the door of the classroom looking at us timidly, but when we took out the sports equipment we brought to play with them, the insignificant barrier was naturally resolved. The children in the countryside don’t recognize birth. They just came here to get along with you soon. When they’re tired, they walk around you in the office, pestering you to tell stories and chat, and give us some handmade crafts as gifts. Although the Henan dialect they spoke was sometimes difficult to hear clearly, two Henan students in the team needed to be translated. But it didn’t take long for us to get used to it. After all, Henan dialect is considered to be a Central Plains language, and many pronunciations are just tone sandhis of Mandarin. For example, “teacher” sounds like a “firestone”, and they always like to say “dejin”, which probably means “happy” and “comfortable”.
+<img src="/img/blog/banjielou_5.jpg" alt="banjielou_5" /></p>
+
+<p>People in the countryside always work at sunrise and rest at sunset. There is a “time difference” of one or two hours from our daily life in the city. The registration work in the morning was originally scheduled to take place at 8:30, and since 7:00, villagers and their children have gathered at the school gate one after another. We had to hurriedly ate breakfast in a pair of expectant eyes, and received the villagers who signed up one by one. During our conversation, we found that most of the children here are left-behind children. Their parents are working in other places. Most of them are taken by their grandparents and relatives who live far away. When asked about the situation of their children, some parents didn’t even know how many grades their children were in. What makes us so angry and funny is that some parents don’t care about the courses and other content provided by the support education, and seem to treat us as With a free summer childcare facility, sending children to us can free themselves from the responsibility of looking after them. Later, when talking with the principal’s son, he said that the rural people’s attitude towards education is really not flattering. Most of the family’s middle-aged people go out to work to make a living, while women and the elderly mostly adopt a stocking attitude towards their children, leaving all the responsibility of education to their native resources Schools are scarce; I would rather play mahjong at home than spend time and money on my children’s education. However, most children stop studying after receiving compulsory education, and even fewer are admitted to university.
+<img src="/img/blog/banjielou_12.jpg" alt="banjielou_12" /></p>
+
+<p>On the day of registration, a total of more than 100 registration forms were received, and a total of more than 110 children in six grades were added. Although I had expected so much before, I still felt a little pressure. We have seen the usual timetables of elementary schools. Counting the principal and special post teachers, this elementary school usually has only nine teachers. Basically, a teacher has to take all the courses for a year, all of whom are all-round fighters. I heard from the principal that the conditions in this village are too poor to retain teachers. The most troublesome thing every year is that there is not enough teachers. When it is most difficult, the principal and his family come to the school to take over. Under these conditions, our thirteen practice team members seem to have a lot of staff.</p>
+
+<p>After the opening ceremony and parent meeting in the morning of the second day, classes will begin in the afternoon. The first section is natural sciences in grades 5 and 6. The classroom has not been powered on on the first day. Some children are sweating hot and fan with homework books, but at any rate the children in grades 5 and 6 are more sensible and do not run around, but they want them It is indeed difficult to maintain forty minutes of attention in this situation. The first time I went to class, I still looked tender. I always yelled in my voice. At first, there was some effect, but after they got used to it, the effect got worse. At this age, girls seem to be much more mature and quieter than boys. After two classes, some people have a few more dense notebooks in their notebooks, which makes me very pleased. After two classes, no matter how much they accepted, I always told them the knowledge points I prepared without fail, and the rhythm was maintained well, which was about the same time as I expected. But after the lecture, I found that I was in the same state as I had just finished working. My clothes were wet and my throat was almost silent.
+<img src="/img/blog/banjielou_6.jpg" alt="banjielou_6" />
+<img src="/img/blog/banjielou_7.jpg" alt="banjielou_7" /></p>
+
+<p>The first and second grade classes are the real test. A female teacher in the team collapsed immediately after finishing the first and second grade classes for the first time and cried for noon. This class originally had the most people, and they were all the youngest and least sensible children. What’s more, some children are only four or five years old, and they are sent to us by their parents (surely we are treated as nurseries). They don’t understand in class and just want to cause trouble. If they talk to him alone, they pretend to be deaf and dumb and timidly ignore. You are at a loss to teach people what to do. I later came to save the general knowledge class and physical education class of this class. After thinking about it for a night, I decided to buy some of their favorite snacks as prizes early in the morning, and then divided them into six groups, and rewarded the group with the highest points and the best performance in the way of group answer points. Facts have proved that children eat this set the most. Not only are they focused in class, but they rush to answer whether they know the answer or not; more importantly, under the pressure of deducting points, children in the same group have mutual supervision Children with a sense of collective honor began to take the initiative to manage troublemakers. After a class, although it cannot be regarded as a 100% smooth, class discipline has been significantly improved. After coming down, I sighed that preschool education really required superhuman patience and tolerance.</p>
+
+<p>After a week of teaching, as a class teacher in grades 5 and 6, in order to check the teaching results of the past week, I gathered all the teachers in grades 5 and 6 and spent the night together to produce a weekly test paper and arrange to do it on Saturday morning. test. Not surprisingly, the results of the test were somewhat unsatisfactory, and the answers of some children really made us dumbfounded. For example, ask how to distinguish the southeast and northwest, answer the door of my house, because the door of my house faces south; ask why it rains, answer because the sun sucks the water away from the ground; some people say that the three physical units are Newton and Ju Li, Einstein… I really admire the children’s imagination and creativity.
+<img src="/img/blog/banjielou_8.png" alt="banjielou_8" /></p>
+
+<p>However, as the teaching work progresses day by day, the rural left-behind children usually lack parental guidance and some bad habits. The class gradually became sloppy, even fighting in front of you, bullying some classmates who they thought had intellectual problems; random littering, and even throwing a toy called stinky bomb into the classroom, making the classroom smelly ；Competing for sports equipment in physical education class, lacking the sense of sharing and cooperation; Another student who is close to us sneaked into the office after school and changed his test scores… During the evening meeting, we all felt that we must It is necessary to put away the faces of laughing and joking when playing with them, and to teach them some principles of life while teaching knowledge, and accompanied by tough measures such as punishment of standing, sanitation, individual education, and even remembering. After a period of rectification, the students may also know that the kind and gentle college student also has a temper. As long as I close my mouth and stare in class, they will converge a lot. The next teaching was really easy, and I never heard my hoarse yelling in class anymore. In fact, the children are not bad in nature, but generally lack of discipline and ignorance. After our criticism and education, they have made obvious improvements in some right and wrong issues and living habits. This gives us a deeper understanding of the importance of educating people in education.</p>
+
+<p>The so-called “from frugality to luxury is easy, and from extravagance to frugality is difficult”, for children from the city, living in the countryside is indeed a good exercise. The original summer was spent in an air-conditioned room. After I came here, the heat in the office was reduced by a ceiling fan, which was temporarily installed by the principal before we came. Especially during the days when the power was cut off, it was even more difficult. The house was so hot that we could only carry the stools and drive the mosquitoes under the eaves to enjoy the cool. The kitchen is transformed into a big steamer, and a meal is cooked like a big sauna. Fortunately, the village occasionally has a large watermelon worth 50 cents a catty from Shandong, a neighboring province. At this time, we will catch up to buy 100 catties and carry it back to the office to cool the teachers. The sanitary conditions are not as far as that in the city, and there are surprisingly large numbers of mosquitoes. Some of the female team members were stinged with wounds and caused inflammation, so they had to ride a borrowed electric tricycle to the village hospital to find a doctor to prescribe ointment. I went to bed at night and wrapped the captain’s bed sheet tightly from head to toe. Even after six o’clock, he would still be awakened by the punctual flies. I could clearly feel the flies across the towel on my head. Take off and land. But in the process, we also felt what we couldn’t experience living in the city. Maybe we can only experience the fun of rural life once in our life: riding an electric tricycle to the town to go to the market; picking wild vegetables and watermelon in the field (finished After that, I split the watermelon with my bare hands and started eating it on the spot); I barely repaired the school’s table tennis table, old printer, school video surveillance, etc. Once on the way back from the market, I didn’t know how to avoid the mud puddle because of my lack of experience. The tricycle was still stuck in the mud after the rain. I had to go to the nearby children’s house for help, and all the children volunteered. Several people worked together to push the car out. In addition, the most memorable experience was that at night, under the leadership of a few children, I took a bamboo pole and a flashlight to get to know the monkey (the nymph of the cicada) in the dark woods at night. The eyesight of the children is much better than ours. A small black spot on a tree trunk that is more than ten meters high can directly determine whether the monkey is known or the shell that the monkey has faded. I played a full basket one night, fried it and sprinkled it with salt and pepper after returning to school, everyone ate it with relish.
+<img src="/img/blog/banjielou_9.jpg" alt="banjielou_9" />
+<img src="/img/blog/banjielou_10.jpg" alt="banjielou_10" /></p>
+
+<p>Time always flows away inadvertently, and the plain and simple country life soon ushered in its last day. At the closed camp party, the children all performed a rehearsed program in joy. Some little girls realized afterwards that the party meant the departure of the teachers. Three seconds later, they cried immediately. After leaving, I once again fell into the self-doubt and self-blame before I came. I know that I cannot reach the realm of a saint like Luanke, and I know that I cannot fundamentally change the current education situation here. I only hope that through post-propaganda efforts and the help of the media, more entrepreneurs can be made (as reported by local TV stations). After we left, Banjielou Primary School again received sponsorship from companies) and the love of the people gathered in this place to provide conditions for improving the children’s learning environment. Furthermore, I don’t know if it’s my own wishful thinking. I hope that through our short-term efforts, we can broaden the children’s horizons as much as possible, bring them a little bit of interest in knowledge and a vision for the vast world outside the village; if we can stand in the future It is even more fortunate to change the destiny of oneself and even the villagers on a larger platform.
+<img src="/img/blog/banjielou_14.jpg" alt="banjielou_11" />
+<img src="/img/blog/banjielou_bg.jpg" alt="banjielou_11" />
+<img src="/img/blog/banjielou_13.jpg" alt="banjielou_13" /></p>
+
+<p>Attachment: An interview documentary by Luanke (Luanke, from Hamburg, Germany, has been teaching at Banlie Primary School in Guangxi for more than ten years since 1997)</p>
+<iframe src="//player.bilibili.com/player.html?aid=21722638&amp;bvid=BV15W411M7Ry&amp;cid=35820628&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"> </iframe>
+
+
+            <hr style="visibility: hidden;">
+
+            <ul class="pager">
+                
+                
+                <li class="next">
+                    <a href="/2015/08/01/%E5%8D%8A%E6%88%AA%E6%A5%BC%E5%B0%8F%E5%AD%A6%E7%9A%84%E6%95%85%E4%BA%8B/" data-toggle="tooltip" data-placement="top" title="半截楼小学的故事">
+                    Next<br>
+                    <span>半截楼小学的故事</span>
+                    </a>
+                </li>
+                
+            </ul>
+
+
+            <!--Gitalk评论start  -->
+            
+            <!-- 引入Gitalk评论插件  -->
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+            <script src="/js/gitalk.min.js"></script>
+            <div id="gitalk-container"></div>
+            <!-- 引入一个生产md5的js，用于对id值进行处理，防止其过长 -->
+            <!-- Thank DF:https://github.com/NSDingFan/NSDingFan.github.io/issues/3#issuecomment-407496538 -->
+            <script src="/js/md5.min.js"></script>
+            <script type="text/javascript">
+                var gitalk = new Gitalk({
+                clientID: 'e86614774e317c7fed9a',
+                clientSecret: '154419f17c90dfbacde93c20aceea25a51c4e0d3',
+                repo: 'joeyhaohao.github.io',
+                owner: 'joeyhaohao',
+                admin: ['joeyhaohao'],
+                distractionFreeMode: true,
+                id: md5(location.pathname),
+                });
+                gitalk.render('gitalk-container');
+            </script>
+            
+            <!-- Gitalk end -->
+
+            
+        </div>
+
+        <!-- Side Catalog Container -->
+        
+
+        <!-- Sidebar Container -->
+        <div class="
+            col-lg-8 col-lg-offset-2
+            col-md-10 col-md-offset-1
+            sidebar-container">
+
+            <!-- Featured Tags -->
+            
+            <section>
+                <hr class="hidden-sm hidden-xs">
+                <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                <div class="tags">
+                    
+                        
+                            <a href="/tags/#漫游记" title="漫游记" rel="3">
+                                漫游记
+                            </a>
+                        
+                    
+                        
+                            <a href="/tags/#Recommender System" title="Recommender System" rel="2">
+                                Recommender System
+                            </a>
+                        
+                    
+                        
+                            <a href="/tags/#Machine Learning" title="Machine Learning" rel="5">
+                                Machine Learning
+                            </a>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <a href="/tags/#NLP" title="NLP" rel="3">
+                                NLP
+                            </a>
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                    
+                        
+                            <a href="/tags/#Web" title="Web" rel="2">
+                                Web
+                            </a>
+                        
+                    
+                        
+                            <a href="/tags/#Full Stack" title="Full Stack" rel="2">
+                                Full Stack
+                            </a>
+                        
+                    
+                        
+                    
+                        
+                            <a href="/tags/#Big Data" title="Big Data" rel="2">
+                                Big Data
+                            </a>
+                        
+                    
+                        
+                    
+                        
+                            <a href="/tags/#手笺" title="手笺" rel="4">
+                                手笺
+                            </a>
+                        
+                    
+                        
+                    
+                </div>
+            </section>
+            
+
+            <!-- Friends Blog -->
+            
+            <hr>
+            <h5>LINKS</h5>
+            <ul class="list-inline">
+                
+                    <li><a href="https://byvoid.com/zht/">BYVoid</a></li>
+                
+                    <li><a href="https://www.roujiawen.com/portfolio/">Roujia Wen</a></li>
+                
+                    <li><a href="http://qiubaiying.vip/">BY Blog</a></li>
+                
+                    <li><a href="https://reneedecinqasept.org/">Renee Zhu</a></li>
+                
+                    <li><a href="https://cuiqingcai.com/">静觅</a></li>
+                
+            </ul>
+            
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/anchor-js/1.1.1/anchor.min.js",function(){
+        // BY Fix:去除标题前的‘#’ issues:<https://github.com/qiubaiying/qiubaiying.github.io/issues/137>
+        // anchors.options = {
+        //   visible: 'always',
+        //   placement: 'right',
+        //   icon: '#'
+        // };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    <!-- add jianshu add target = "_blank" to <a> by BY -->
+                    
+                    
+
+                    <!-- add Weibo, Zhihu by Hux, add target = "_blank" to <a> by Hux -->
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/joeyhaohao">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; joeyhaohao 2021
+                    <br>
+                    Theme on <a href="https://github.com/joeyhaohao/joeyhaohao.github.io.git">GitHub</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=joeyhaohao&repo=joeyhaohao.github.io&type=star&count=true" >
+                    </iframe>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/hux-blog.min.js "></script>
+
+<!-- Service Worker -->
+
+<script type="text/javascript">
+    if(navigator.serviceWorker){
+        // For security reasons, a service worker can only control the pages that are in the same directory level or below it. That's why we put sw.js at ROOT level.
+        navigator.serviceWorker
+            .register('/sw.js')
+            .then((registration) => {console.log('Service Worker Registered. ', registration)})
+            .catch((error) => {console.log('ServiceWorker registration failed: ', error)})
+    }
+</script>
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/ 
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers   
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async('/js/jquery.tagcloud.js',function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-189766809-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-189766809-1');
+</script>
+
+
+
+
+
+
+
+<!-- Side Catalog -->
+
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="/img/icon-corgi.jpg" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
