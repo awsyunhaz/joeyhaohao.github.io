@@ -5,8 +5,8 @@
     <description>joeyhaohao's portfolio and blogs</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 04 Apr 2021 15:36:23 -0700</pubDate>
-    <lastBuildDate>Sun, 04 Apr 2021 15:36:23 -0700</lastBuildDate>
+    <pubDate>Sun, 04 Apr 2021 17:11:25 -0700</pubDate>
+    <lastBuildDate>Sun, 04 Apr 2021 17:11:25 -0700</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
@@ -100,7 +100,7 @@
 但是面对德国、日本汽车工业的残酷竞争，在市场上连连受挫，政府又不得不将其私有化。同样的，中国的工商业在进入WTO之前跟非洲处在同一水平，
 甚至比东南亚还略有不如；一旦进入充分竞争的环境，再加上政府对部分产业的放手，才有了近二十年火箭般的成长速度。这就是个体的能量释放出的结果。&lt;/p&gt;
 
-&lt;div style=&quot;text-align: center&quot;&gt;
+&lt;div class=&quot;inline-imgs&quot;&gt;
   &lt;img src=&quot;/img/blog/iphone_xr.jpeg&quot; width=&quot;30%&quot; /&gt;
   &lt;img src=&quot;/img/blog/dyson.jpeg&quot; width=&quot;30%&quot; /&gt;
   &lt;img src=&quot;/img/blog/toilet_seat.webp&quot; width=&quot;30%&quot; /&gt;  
@@ -110,27 +110,35 @@
 《美国工厂》（American Factory，讲述2008年福耀公司在位于美国铁锈带的俄亥俄州建生产线）。在这里着重推荐一下2020年奥斯卡最佳纪录片奖《美国工厂》，
 不仅因为玻璃厂的老板是我的老乡，更因为它以一个写实的角度记录了来自东方的集体主义文化进入西方工业界的阵痛，让我们在文化的碰撞中对两种思维模式的不同有更直接的理解。
 &lt;img src=&quot;/img/blog/american_factory.jpg&quot; alt=&quot;american_factory&quot; /&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot;&gt;美方经理参加福耀公司年会后热泪盈眶，也许是第一次感到集体主义带来的温暖&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;美方经理参加福耀公司年会后热泪盈眶，也许是第一次感到大集体的温暖&lt;/p&gt;
 &lt;iframe width=&quot;720&quot; height=&quot;405&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; src=&quot;https://www.ixigua.com/iframe/6792066129419305486?autoplay=0&amp;amp;startTime=0&quot;&gt; &lt;/iframe&gt;
 
 &lt;h2 id=&quot;应对危机&quot;&gt;应对危机&lt;/h2&gt;
 &lt;p&gt;几年以前曾经读到这样一段话，大意是：人们在危机发生时，总渴望背后有个大政府（集体），来提供物质支持和心理上的安全感；但当危机过去，又不希望见到过于强势的政府，
 造成沉重的赋税负担和对个人空间的过度干涉。虽然现在已经找不到来源，但是依然认为它所传达的信息很精辟。如前面讨论的，大集体固然有其弊端，比如干涉个人空间、
-侵蚀个体意识、束缚个体的能动性和创造力等，但是当面对关乎集体存亡的重大危机发生时，往往正是集体主义的优势体现的时候。所谓”一方有难，八方支援”，
-集体主义下道德下大家荣辱与共，一方有难其余成员岂能袖手旁观？这里的”危机”包括但不限于战争、自然灾害、瘟疫、环境危机、金融危机等所有群体危机：&lt;/p&gt;
+侵蚀个体意识、束缚个体的能动性和创造力等，但是当面对关乎集体存亡的重大危机发生时，往往正是集体主义的优势体现的时候。这里的”危机”包括但不限于战争、
+自然灾害、瘟疫、环境危机、经济危机等所有群体危机：&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;战争：当战争发生时，如果国家机器没有动员能力（比如：军队内官兵无统一指挥，民间亦各为其主），则在文明碰撞中难逃被其他集体淘汰的命运。
 这也是军队这个争夺群体利益的核心集体形式存在于现代文明的逻辑。&lt;/li&gt;
+  &lt;li&gt;自然灾害：所谓”一方有难，八方支援”，集体主义下道德下大家荣辱与共，一方有难其余成员岂能袖手旁观？发展到现代产生各省市”对口支援”这样极具中国特色的方案[7]，
+就是集体主义精神的最好写照。每每有自然灾害发生时，当各省的救援人员纷纷赴灾区报到、各地医疗物资陆续汇集一处，总会激起个人内心向往集体的情怀。
+再转头看看美国每年加州山火带来的损失和困扰，就知道灾害发生时背靠大集体的优势了。&lt;/li&gt;
   &lt;li&gt;瘟疫：这个例子在写下本文时发生的Covid-19全球大流行中体现的淋漓尽致。为什么疫情期间戴口罩这个行为在东方人看来微不足道，却迟迟难以在西方国家全民推广？
 在东方人看来，戴口罩是甚至是不足挂齿的用个人牺牲服务集体的行为，更何况在这种集体文化下，没有人想成为给家庭、社会等大集体带来风险的”自私自利”的人；
-然而这点在个人意识&amp;gt;集体意识的西方国家则行不通，对于崇尚个人自由的西方人而言，倘若个体不在对抗集体膨胀的过程中持续抗争，
+然而这点在个人意识 &amp;gt; 集体意识的西方国家则行不通，对于崇尚个人自由的西方人而言，倘若个体不在对抗集体膨胀的过程中持续抗争，
 则强制戴口罩仅仅意味着个体意志被进一步操控的开始。&lt;/li&gt;
   &lt;li&gt;环境危机：当人类行为已经严重危害其它生物的生存环境（海洋、大气、土壤污染）和地球的可持续性（气候变暖（存疑）、臭氧层破坏等）时，
 需要以集体为单位坐上谈判桌，采取措施限制内部个体的行为。&lt;/li&gt;
-  &lt;li&gt;金融危机：大萧条（1929-1933）后期的罗斯福新政（The New Deal）、2008年次贷危机美国政府的救市法案（Emergency Economic Stabilization Act）等。&lt;/li&gt;
+  &lt;li&gt;经济危机：经济系统的周期性决定了央行、政府等大机构存在的必要性。在经济去杠杆化的过程中，人们总是对大政府翘首以盼，期待政府和央行联手开动印钞机；
+提供经济刺激法案，如大萧条（1929-1933）后期的罗斯福新政（The New Deal）、2008年次贷危机美国政府的救市法案（Emergency Economic 
+Stabilization Act）；以及干预市场、通过税收等手段介入财富再分配等等。倘若继续完全放任自由，高失业率、高负债带来的社会动荡，是每个人都不愿见到的，
+在1933年甚至将希特勒推上德国政坛。2019年新冠疫情发生时我正好在美国，看到美国人民一轮一轮地领着政府纾困金，一边在政府干预个人空间（如封城、
+宵禁、口罩令等）时高呼自由美利坚，我才体会到本段开头那个观点所观察的是多么透彻。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;针对以上例子，极端个人主义、无政府主义的人可能会说，国家本就是虚无的概念，瘟疫本是自然选择，与我何干？那么，我想也许文明之前的丛林社会才是他们的理想归宿。&lt;/p&gt;
+&lt;p&gt;针对以上例子，极端个人主义、以及无政府主义的人可能会说，国家本就是虚无的概念，瘟疫、环境等危机本就是自然选择，与我何干？那么，
+也许文明之前的丛林社会才是世界的理想归宿。&lt;/p&gt;
 
 &lt;h2 id=&quot;经验主义和实证主义&quot;&gt;经验主义和实证主义&lt;/h2&gt;
 
@@ -147,6 +155,8 @@ Processes in Self-Assessment Biases [Young-Hoon Kim, et al., 2016]&lt;/a&gt;&lt;
 &lt;p&gt;&lt;a href=&quot;http://www.xinhuanet.com/politics/2018-11/01/c_1123649488.htm&quot;&gt;[5] 习近平：在民营企业座谈会上的讲话&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://fred.stlouisfed.org/series/DDEI08USA156NWDB&quot;&gt;[6] Credit to Government and State-Owned Enterprises to GDP for United States&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.gov.cn/zwgk/2008-06/18/content_1019966.htm&quot;&gt;[7] 国务院办公厅关于印发汶川地震灾后恢复重建对口支援方案的通知&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Fri, 01 Jan 2021 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2021/01/01/%E7%BE%8E%E5%9B%BD%E6%A2%A6vs%E4%B8%AD%E5%9B%BD%E6%A2%A6%E4%B8%89/</link>
